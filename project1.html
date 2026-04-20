@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="CALCULATOR">
+        <form>
+            <table>
+                <tr class="row1"><th colspan="3"><h1>WEB CALCULATOR</h1></th></tr>
+                <tr class="row2">
+                    <td colspan="3">
+                        <input type="number" placeholder="Enter first number..." id="num1">
+                    </td>
+                </tr>
+                <tr class="row3">
+                    <td colspan="3">
+                        <input type="number" placeholder="Enter second number..." id="num2">
+                    </td>
+                </tr>
+                <tr class="result">
+                    <td colspan="3">
+                        <p id="result" style="color: gray;">Result!!!!</p>
+                    </td>
+                </tr>
+                <tr class="row4">
+                    <td><button type="button" onclick="add()">Add(+)</button></td>
+                    <td><button type="button" onclick="sub()">Sub(-)</button></td>
+                    <td><button type="button" onclick="mul()">Mul(*)</button></td>
+                </tr>
+                <tr class="row5">
+                    <td><button type="button" onclick="div()">Div(/)</button></td>
+                    <td><button type="button" onclick="sqrt()">Sqrt</button></td>
+                    <td><button type="button" onclick="mod()">Mod(%)</button></td>
+                </tr>
+                <tr class="row6">
+                    <td><button type="button" onclick="x2()">Sqr(^2)</button></td>
+                    <td><button type="button" onclick="x3()">Cube(^3)</button></td>
+                    <td><button type="button" onclick="x4()">x^y</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="./project1.js"></script>
+</body>
+</html>
